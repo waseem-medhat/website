@@ -14,15 +14,15 @@ enableRobotsTXT = true
 #googleAnalytics = "UA-123-45"
 
 [params]
-title = "I'm Jane Doe"
-author = "Jane Doe"
-description = "Call me Jane"
-profilePicture = "images/profile.jpg"
+title = "Waseem Medhat"
+author = "Waseem Medhat"
+description = "Biostatistics - Visualization - Programming"
+profilePicture = "images/r-logo.svg"
 keywords = ""
 favicon = "favicons/"
 customCss = []
 mainSections = ["post"]
-images = ["images/site-feature-image.png"]
+#images = ["images/site-feature-image.png"]
 
 ## Math settings
 [params.math]
@@ -30,25 +30,26 @@ enable = false  # options: true, false. Enable math support globally, default: f
 use = "katex"  # options: "katex", "mathjax". default is "katex".
 
 ## Social links
+
+[[params.socialIcons]]
+icon = "fa-facebook"
+title = "Facebook"
+url = "https://www.facebook.com/waseem.medhat.gaber"
+
 [[params.socialIcons]]
 icon = "fa-linkedin"
 title = "Linkedin"
-url = "https://de.linkedin.com/"
+url = "https://www.linkedin.com/in/waseem-medhat/"
 
 [[params.socialIcons]]
 icon = "fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/waseem-medhat"
 
 [[params.socialIcons]]
-icon = "fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
-
-[[params.socialIcons]]
-icon = "fa-envelope"
+icon = "fa-user"
 title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+url = "/about/"
 
 ## Menu items
 
