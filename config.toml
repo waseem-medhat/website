@@ -1,7 +1,7 @@
-baseURL = "https://example.com"
+baseURL = "/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "Personal Website and Blog"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
@@ -62,13 +62,25 @@ url = "/about/"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Categories"
   weight = 200
+  identifier = "categories"
+  url = "/categories/"
+
+  [[menu.main]]
+  name = "Tags"
+  weight = 300
+  identifier = "tags"
+  url = "/tags/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 400
   identifier = "posts"
   url = "/post/"
 
   [[menu.main]]
   name = "About"
-  weight = 300
+  weight = 500
   identifier = "about"
   url = "/about/"
