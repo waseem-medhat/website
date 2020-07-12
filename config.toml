@@ -20,7 +20,7 @@ description = "Biostatistics - Visualization - Programming"
 profilePicture = "images/r-logo.svg"
 keywords = ""
 favicon = "favicons/"
-customCss = []
+customCss = ["css/custom.css"]
 mainSections = ["post"]
 #images = ["images/site-feature-image.png"]
 

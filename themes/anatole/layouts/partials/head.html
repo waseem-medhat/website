@@ -23,4 +23,10 @@
     {{ $secureJS := $anatole |  resources.Minify | resources.Fingerprint }}
     <script type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}" crossorigin="anonymous"></script>
     {{ template "_internal/twitter_cards.html" . }}
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="{{"css/gruvbox-dark.css" | absURL}}" rel="stylesheet" id="theme-stylesheet">
+    <script src="{{ "js/highlight.pack.js" | absURL }}"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
 </head>
