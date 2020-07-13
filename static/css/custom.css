@@ -32,6 +32,9 @@ ul {
 
 .hljs {
   padding: 15px !important;
-  border-radius: 5px;
   line-height: 20pt;
+}
+
+pre {
+  border-radius: 5px;
 }
