@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "https://practical-fermi-ca6967.netlify.app/"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Personal Website and Blog"
