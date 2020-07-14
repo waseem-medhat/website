@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Personal Website and Blog</title>
-    <link>https://practical-fermi-ca6967.netlify.app/</link>
+    <link>/</link>
     <description>Recent content on Personal Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 12 Jul 2020 20:39:20 +0200</lastBuildDate>
     
-	<atom:link href="https://practical-fermi-ca6967.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why R (Biostatistician&#39;s version)</title>
-      <link>https://practical-fermi-ca6967.netlify.app/post/why-r/</link>
+      <link>/post/why-r/</link>
       <pubDate>Mon, 13 Jul 2020 22:56:09 +0200</pubDate>
       
-      <guid>https://practical-fermi-ca6967.netlify.app/post/why-r/</guid>
+      <guid>/post/why-r/</guid>
       <description>Contrary to the majority of R content which is directed towards data science and related business domains, this post is in the context of biostatistics.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://practical-fermi-ca6967.netlify.app/about/</link>
+      <link>/about/</link>
       <pubDate>Sun, 12 Jul 2020 20:39:20 +0200</pubDate>
       
-      <guid>https://practical-fermi-ca6967.netlify.app/about/</guid>
+      <guid>/about/</guid>
       <description>(This page contains some personal information about me and the site.</description>
     </item>
     

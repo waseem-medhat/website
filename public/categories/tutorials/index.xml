@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tutorials on Personal Website and Blog</title>
-    <link>https://practical-fermi-ca6967.netlify.app/categories/tutorials/</link>
+    <link>/categories/tutorials/</link>
     <description>Recent content in Tutorials on Personal Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 13 Jul 2020 22:56:09 +0200</lastBuildDate>
     
-	<atom:link href="https://practical-fermi-ca6967.netlify.app/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Why R (Biostatistician&#39;s version)</title>
-      <link>https://practical-fermi-ca6967.netlify.app/post/why-r/</link>
+      <link>/post/why-r/</link>
       <pubDate>Mon, 13 Jul 2020 22:56:09 +0200</pubDate>
       
-      <guid>https://practical-fermi-ca6967.netlify.app/post/why-r/</guid>
+      <guid>/post/why-r/</guid>
       <description>Contrary to the majority of R content which is directed towards data science and related business domains, this post is in the context of biostatistics.</description>
     </item>
     

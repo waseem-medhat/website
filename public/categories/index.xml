@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Personal Website and Blog</title>
-    <link>https://practical-fermi-ca6967.netlify.app/categories/</link>
+    <link>/categories/</link>
     <description>Recent content in Categories on Personal Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 13 Jul 2020 22:56:09 +0200</lastBuildDate>
     
-	<atom:link href="https://practical-fermi-ca6967.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Tutorials</title>
-      <link>https://practical-fermi-ca6967.netlify.app/categories/tutorials/</link>
+      <link>/categories/tutorials/</link>
       <pubDate>Mon, 13 Jul 2020 22:56:09 +0200</pubDate>
       
-      <guid>https://practical-fermi-ca6967.netlify.app/categories/tutorials/</guid>
+      <guid>/categories/tutorials/</guid>
       <description></description>
     </item>
     
