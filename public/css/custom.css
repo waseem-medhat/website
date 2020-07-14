@@ -1,0 +1,40 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(fonts/OpenSans-Regular.ttf);
+}
+
+.sidebar .logo-title .title img {
+  border-radius: 0;
+}
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+.sidebar .logo-title .title a,
+.sidebar .logo-title .title p {
+  font-weight: 1;
+  text-transform: capitalize;
+  margin: 5px auto;
+}
+
+.sidebar .logo-title .title h3 {
+  margin: 5px auto;
+}
+
+hr {
+  margin: 2rem;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+.hljs {
+  padding: 15px !important;
+  line-height: 20pt;
+}
+
+pre {
+  border-radius: 5px;
+}
