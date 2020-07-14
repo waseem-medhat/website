@@ -13,6 +13,9 @@ enableRobotsTXT = true
 # Google Analytics
 #googleAnalytics = "UA-123-45"
 
+pygmentsCodefences = true
+pygmentsStyle = "native"
+
 [params]
 title = "Waseem Medhat"
 author = "Waseem Medhat"
