@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Personal Website and Blog"
+title = "Waseem Medhat's Personal Website and Blog"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true

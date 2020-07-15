@@ -2,12 +2,12 @@
 date: 2020-07-12T20:39:20+02:00
 ---
 
-_(This page contains some personal information about me and the site.
-[For my CV, click here.](/cv/waseem_medhat_jun2020.pdf))_
+*(This page contains some personal information about me and the site.*
+*[For my CV, click here.](/cv/waseem_medhat_jun2020.pdf))*
 
 ### About me
 
-> **I am Waseem Medhat: a pharmacist, a (biostatistics) master's degree
+> **I am Waseem Medhat -- a pharmacist, a (biostatistics) master's degree
 > candidate, and a freelance biostatistician.**
 
 My journey started a couple of months after graduation, and it has been ongoing
