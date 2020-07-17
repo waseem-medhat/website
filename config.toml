@@ -16,7 +16,7 @@ enableRobotsTXT = true
 pygmentsUseClasses = true
 pygmentsCodefences = true
 pygmentsStyle = "native"
-useHLJS = true
+useHLJS = false
 
 [params]
 title = "Waseem Medhat"
