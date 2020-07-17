@@ -45,3 +45,5 @@ website/blog is better:
 - Theme: [Anatole](https://github.com/lxndrblz/anatole/)
 
 - Hosting: [Netlify](https://www.netlify.com/)
+
+- R logo: [Flatart](https://www.freepik.com/flatart)
