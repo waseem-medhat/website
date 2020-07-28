@@ -33,6 +33,7 @@ hr {
 
 ul {
   list-style-type: circle;
+  line-height: 1.9em;
 }
 
 pre {
