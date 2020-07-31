@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Waseem Medhat&#39;s Personal Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2020 22:56:09 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 13:11:27 +0200</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Mon, 13 Jul 2020 22:56:09 +0200</pubDate>
+      <pubDate>Fri, 31 Jul 2020 13:11:27 +0200</pubDate>
       
       <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>/tags/python/</link>
+      <pubDate>Tue, 28 Jul 2020 18:50:42 +0200</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Text Analysis</title>
+      <link>/tags/text-analysis/</link>
+      <pubDate>Tue, 28 Jul 2020 18:50:42 +0200</pubDate>
+      
+      <guid>/tags/text-analysis/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Personal on Waseem Medhat&#39;s Personal Website and Blog</title>
+    <link>/categories/personal/</link>
+    <description>Recent content in Personal on Waseem Medhat&#39;s Personal Website and Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Jul 2020 18:50:42 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/personal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Text Analysis Phase 2: Python</title>
+      <link>/post/text-analysis-phase-2-python/</link>
+      <pubDate>Tue, 28 Jul 2020 18:50:42 +0200</pubDate>
+      
+      <guid>/post/text-analysis-phase-2-python/</guid>
+      <description>I have been an R purist through my whole learning journey, but now I am picking up Python.</description>
+    </item>
+    
+    <item>
+      <title>First Steps With Text Analysis</title>
+      <link>/post/first-steps-with-text-analysis/</link>
+      <pubDate>Sat, 18 Jul 2020 14:30:56 +0200</pubDate>
+      
+      <guid>/post/first-steps-with-text-analysis/</guid>
+      <description>This is the beginning of experimentation with a new topic: text analysis!</description>
+    </item>
+    
+  </channel>
+</rss>

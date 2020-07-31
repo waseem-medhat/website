@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Waseem Medhat | First Steps With Text Analysis </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Biostatistics - Visualization - Programming">
+    
+    <link rel="stylesheet" href="/css/style.min.67cd718c0a3c8009c771494d381fb7128246a454bd0518fed97cb65d257db948.css" integrity="sha256-Z81xjAo8gAnHcUlNOB&#43;3EoJGpFS9BRj&#43;2Xy2XSV9uUg=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="/css/custom.css" type="text/css"><link rel="stylesheet" href="/css/syntax.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+    <link rel="canonical" href="/post/first-steps-with-text-analysis/">
+    
+    
+    <script type="text/javascript" src="/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="First Steps With Text Analysis"/>
+<meta name="twitter:description" content="Describing my the beginning of my journey in text analysis and NLP"/>
+
+
+    
+
+</head>
+<body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="/images/r-logo.svg" alt="profile picture">
+        <h3 title=""><a href="/">Waseem Medhat</a></h3>
+        <div class="description">
+          <p>Biostatistics - Visualization - Programming</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://www.facebook.com/waseem.medhat.gaber" rel="me" aria-label="Facebook">
+          <i class="fa fa-2x fa-facebook" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://www.linkedin.com/in/waseem-medhat/" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/waseem-medhat" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="/about/" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-user" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Waseem Medhat 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/categories/" title="">Categories</a></li>
+        
+        
+        <li><a  href="/tags/" title="">Tags</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>First Steps With Text Analysis
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Sat, Jul 18, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">4-minute read</span>
+        </div>
+        
+        </div>
+
+    <p>This is the beginning of experimentation with a new topic: text analysis! I have
+always heard about text analysis or natural language processing (NLP) for quite
+some time, but I never learned anything about it. So, it is about time I got
+started&hellip;</p>
+<h1 id="first-resource">First resource</h1>
+<p>Since I mostly code in R, it was a natural choice to use it as a platform for my
+learning. The book
+<a href="https://www.tidytextmining.com/">&ldquo;Text Mining with R: A Tidy Approach&rdquo;</a> seemed
+like a good choice for a starting point.</p>
+<!-- raw HTML omitted -->
+<p>At the time of writing this post, I have completed reading and coding along 4
+chapters that introduced the following topics:</p>
+<ul>
+<li>
+<p><strong>The tidy text format</strong> which follows the famous &ldquo;tidy&rdquo; table format by
+having one row per word (or token).</p>
+</li>
+<li>
+<p><strong>Tokenization</strong> of text documents, i.e., splitting them into tokens. Tokens
+are either single words (unigrams) or pieces with more than one words
+(n-grams).</p>
+</li>
+<li>
+<p><strong>Sentiment analysis</strong> by giving tokens labels or scores to reflect the
+positive/negative sentiment, which are then analyzed.</p>
+</li>
+<li>
+<p>Analyzing frequency and <strong>tf-idf</strong> as a measure of token importance in a
+document.</p>
+</li>
+<li>
+<p><strong>Network/graph</strong> visualization to explore relationships between words.</p>
+</li>
+</ul>
+<h1 id="some-output">Some output</h1>
+<p>Let me share some of the nice analysis results that I made. They use almost the
+same code from the book, with a few visual tweaks here and there.</p>
+<h2 id="sentiment-analysis">Sentiment analysis</h2>
+<p><img src="/post/first-steps-with-text-analysis_files/sentiment.png" alt="sentiment"></p>
+<p>The first one is the result of sentiment analysis of books by dividing the book
+into 80-word sections and calculating the sentiment score of each section. For
+example, the book &ldquo;Mansfield Park&rdquo; has mostly words of positive sentiment. But
+it reverses near the end into negative sentiment and finally back to positive.</p>
+<p>Note that in this basic example, negation is not accounted for. In other words,
+something like &ldquo;not good&rdquo; still counts as a positive sentiment because &ldquo;good&rdquo;
+does.</p>
+<h2 id="bigram-network">Bigram network</h2>
+<p><img src="/post/first-steps-with-text-analysis_files/network.png" alt="network"></p>
+<p>Just like text analysis/NLP, network visualization is something I never tried
+before. So, it was nice to try it out here. This here is a simple one that shows
+common co-occurrences between pairs of words (bigrams).</p>
+<p>Unsurprisingly, most bigrams are either first and last names or a single name
+associated with a title like &ldquo;miss&rdquo;, &ldquo;dr&rdquo;, or &ldquo;captain&rdquo;.</p>
+<h2 id="zipfs-law">Zipf&rsquo;s law</h2>
+<p><img src="/post/first-steps-with-text-analysis_files/zipf.png" alt="zipf"></p>
+<p>This one is interesting. Zipf&rsquo;s law states that in a book or a similar
+collection of words, the second most frequent word is half as frequent as the
+most common word, the third most frequent is a third as frequent, and so on. To
+put it succinctly: $$frequency \propto \frac{1}{rank}$$</p>
+<p>It does show in the analyzed set of books, although there is some divergence in
+the most common words, i.e., they are used less frequently than what would be
+expected from Zipf&rsquo;s law.</p>
+<p>P.S. It reminded me of a Vsauce video&hellip;</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/fCn8zs912OE" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h1 id="reflection-and-goals">Reflection and goals</h1>
+<p>I was able to pick up the basics of text analysis using these few chapters. I
+find it just as interesting as any other data analytic topic. The obvious next
+step for me will be to continue reading the book and practice with the case
+studies that are provided there.</p>
+<p>Finally, there is one single application that interests me at the moment, and
+that is searching. More specifically, I am looking forward to make an
+implementation that:</p>
+<ul>
+<li>
+<p>Takes some user input and search for it in a pre-specified text dataset.</p>
+</li>
+<li>
+<p>Works like web search engines which give the results that match all the input
+keywords (if any), then the results that match fewer keywords, and so on.</p>
+</li>
+<li>
+<p>Allows fuzzy matching, i.e., the input can be misspelled, and the matched
+results are sorted by similarity.</p>
+</li>
+</ul>
+<p>I am not sure that the ideas behind an algorithm like this will be covered in
+the book. Also, I doubt that I will need machine learning for this, because I am
+not trying to make predictions &ndash; I only need it to look for the closest match
+in a finite set of choices. However, machine learning might be needed in a more
+advanced application in which the search keywords are extracted from full
+sentences/paragraphs of user input.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/personal/">Personal</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/r/">R</a><a class="tag" href="/tags/text-analysis/">Text Analysis</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script></html></body>
+
+</html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on Waseem Medhat&#39;s Personal Website and Blog</title>
+    <link>/tags/python/</link>
+    <description>Recent content in Python on Waseem Medhat&#39;s Personal Website and Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 28 Jul 2020 18:50:42 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Text Analysis Phase 2: Python</title>
+      <link>/post/text-analysis-phase-2-python/</link>
+      <pubDate>Tue, 28 Jul 2020 18:50:42 +0200</pubDate>
+      
+      <guid>/post/text-analysis-phase-2-python/</guid>
+      <description>I have been an R purist through my whole learning journey, but now I am picking up Python.</description>
+    </item>
+    
+  </channel>
+</rss>

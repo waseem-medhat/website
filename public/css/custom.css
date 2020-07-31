@@ -3,6 +3,11 @@
   src: url(fonts/OpenSans-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url(fonts/OpenSans-Bold.ttf);
+}
+
 .sidebar .logo-title .title img {
   border-radius: 0;
 }
@@ -28,10 +33,19 @@ hr {
 
 ul {
   list-style-type: circle;
+  line-height: 1.9em;
 }
 
 pre {
   border-radius: 5px;
   padding: 15px !important;
   line-height: 20pt;
+}
+
+p {
+  font-size: 16px;
+}
+
+strong {
+  font-family: "Open Sans Bold", sans-serif;
 }

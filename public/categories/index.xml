@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Waseem Medhat&#39;s Personal Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Jul 2020 22:56:09 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 13:11:27 +0200</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>Tutorials</title>
       <link>/categories/tutorials/</link>
-      <pubDate>Mon, 13 Jul 2020 22:56:09 +0200</pubDate>
+      <pubDate>Fri, 31 Jul 2020 13:11:27 +0200</pubDate>
       
       <guid>/categories/tutorials/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Personal</title>
+      <link>/categories/personal/</link>
+      <pubDate>Tue, 28 Jul 2020 18:50:42 +0200</pubDate>
+      
+      <guid>/categories/personal/</guid>
       <description></description>
     </item>
     
