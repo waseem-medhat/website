@@ -25,14 +25,11 @@ manner and also summarized in a single table at the end.
 
 # Find your workflow
 
-Before I start dropping down the shortcuts I wanted to share, let me point out
-that these are _my_ favorite shortcuts. RStudio has a lot of other shortcuts
-that I won't mention. You should explore the available shortcuts and pick your
-favorites.
-
-Also, there are some RStudio shortcuts that are not bound to any keys. You might
-want to look at those and see if you'd use any of them and map it to a key
-binding, which brings us to the first shortcut:
+Before I start dropping down the shortcuts I wanted to share, I should
+re-emphasize that these are _my_ favorite shortcuts. RStudio has a lot of other
+shortcuts that I won't mention (and others that aren't even bound to any keys).
+You should explore the available shortcuts and pick the ones that suit you. This
+brings us to the first shortcut:
 
 - `Alt+Shift+k` to show a list of RStudio shortcuts.
 
@@ -60,7 +57,7 @@ ways I do so is by using RStudio shortcuts to switch focus to panes.
 - Switch focus to the terminal with `Alt+Shift+t` (and start a terminal if there
   isn't one open already)
 
-There are more focus shortcuts like these, but these are the one I use a lot.
+There are more focus shortcuts, but these are the one I use a lot.
 
 # Jumping between tabs
 
@@ -74,24 +71,25 @@ for it very quickly with a shortcut.
 
 # Running code
 
-Sending code to the console is something any full-time R programmer does
-hundreds of times a day. Imagine how much time and pain is saved if you use a
-shortcut instead of selecting a number of lines with the mouse and click the
-"Run" button time and time again. The shortcut is smart enough to run the whole
-paragraph if it is a `dplyr` pipeline or `ggplot2` paragraph.
+Sending code to from the editor to the console is something any full-time R
+programmer does hundreds of times a day. Imagine how much time (and pain) is
+saved if you use a shortcut instead of selecting a number of lines with the
+mouse and click the "Run" button time and time again. The shortcut is smart
+enough to run the whole paragraph if it is a `dplyr` pipeline or `ggplot2`
+paragraph.
 
 - `Ctrl+Enter` runs current line or multi-line statement.
 
 There is one extra trick, though. This shortcut runs the paragraph and moves the
 cursor to the next line/paragraph. This might be slightly annoying if you are
 tweaking a single parameter and re-running the code multiple times. RStudio has
-a variant of the shortcut that doesn't move the cursor, but this shortcut is not
-bounded to any keys. So, you can go to the RStudio settings and bind it to
-whatever key combination you like.
+a variant of the shortcut that doesn't move the cursor, but this shortcut is
+unbound. So, you can go to the RStudio settings and bind it to whatever key
+combination you like.
 
 # Completion
 
-RStudio's completion engine is really powerful, and I consider it one of the
+RStudio's completion engine is really powerful, and I think it is one of the
 best features of RStudio. It is already available for use out of the box, but I
 tweaked some settings to make it even faster.
 
@@ -107,7 +105,7 @@ Completion is also associated with its own keyboard shortcuts.
 - `↑`/`↓` to navigate up/down in the completion choices.
 - `Ctrl+p`/`Ctrl+n` can be used instead of `↑`/`↓`.
 
-I personally like navigating with `Ctrl+p`/`Ctrl+n` because they are close to
+I personally like navigating with `Ctrl+p`/`Ctrl+n` because they are closer to
 home row on the keyboard than the arrow keys.
 
 # Commenting out lines
