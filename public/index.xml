@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Gotta Love/Hate Regex</title>
+      <link>/post/regex/</link>
+      <pubDate>Wed, 05 Aug 2020 01:46:25 +0200</pubDate>
+      
+      <guid>/post/regex/</guid>
+      <description>I remember once calling regular expressions &amp;ldquo;absolute magic&amp;rdquo;. I do think it is powerful, but it kind of gets messy and unreadable when it gets bigger.</description>
+    </item>
+    
+    <item>
       <title>RStudio Shortcuts (My Favorite)</title>
       <link>/post/rstudio-shortcuts-my-favorite/</link>
       <pubDate>Fri, 31 Jul 2020 13:11:27 +0200</pubDate>

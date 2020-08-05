@@ -6,10 +6,19 @@
     <description>Recent content in Posts on Waseem Medhat&#39;s Personal Website and Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Jul 2020 13:11:27 +0200</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 01:46:25 +0200</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Gotta Love/Hate Regex</title>
+      <link>/post/regex/</link>
+      <pubDate>Wed, 05 Aug 2020 01:46:25 +0200</pubDate>
+      
+      <guid>/post/regex/</guid>
+      <description>I remember once calling regular expressions &amp;ldquo;absolute magic&amp;rdquo;. I do think it is powerful, but it kind of gets messy and unreadable when it gets bigger.</description>
+    </item>
     
     <item>
       <title>RStudio Shortcuts (My Favorite)</title>
