@@ -67,22 +67,22 @@ url = "/about/"
   url = "/"
 
   [[menu.main]]
-  name = "Categories"
+  name = "Tutorials"
   weight = 200
-  identifier = "categories"
-  url = "/categories/"
+  identifier = "tutorials"
+  url = "/categories/Tutorials"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 300
+  identifier = "blog"
+  url = "/categories/Blog"
 
   [[menu.main]]
   name = "Tags"
-  weight = 300
+  weight = 400
   identifier = "tags"
   url = "/tags/"
-
-  [[menu.main]]
-  name = "Posts"
-  weight = 400
-  identifier = "posts"
-  url = "/post/"
 
   [[menu.main]]
   name = "About"

@@ -3,7 +3,7 @@ title: "Text Analysis Phase 2: Python"
 date: 2020-07-28T18:50:42+02:00
 Description: "I go over the second step in my text analysis and NLP journey."
 Tags: ["Python", "Text Analysis"]
-Categories: ["Personal"]
+Categories: ["Blog"]
 DisableComments: false
 math: true
 ---

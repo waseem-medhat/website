@@ -3,7 +3,7 @@ title: "Gotta Love/Hate Regex"
 date: 2020-08-05T01:46:25+02:00
 Description: "Talking about regex in general and explaining an example"
 Tags: ["Text Analysis"]
-Categories: ["Personal"]
+Categories: ["Blog"]
 DisableComments: false
 ---
 

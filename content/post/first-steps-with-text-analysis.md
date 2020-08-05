@@ -3,7 +3,7 @@ title: "First Steps With Text Analysis"
 date: 2020-07-18T14:30:56+02:00
 Description: "Describing my the beginning of my journey in text analysis and NLP"
 Tags: ["R", "Text Analysis"]
-Categories: ["Personal"]
+Categories: ["Blog"]
 DisableComments: false
 math: true
 ---
