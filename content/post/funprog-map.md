@@ -20,7 +20,7 @@ implementations in R. For a more detailed look, I recommend reading the
 [R for Data Science chapter on iteration](https://r4ds.had.co.nz/iteration.html).
 
 ![map](/post/funprog-map_files/map.png)
-(Image credits: http://keitheis.github.io/reactive-programming-in-python/#)
+(Image source: http://keitheis.github.io/reactive-programming-in-python/)
 
 # What is `map`?
 
