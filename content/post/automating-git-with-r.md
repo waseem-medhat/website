@@ -93,3 +93,5 @@ for reading convenience. I do have it on GitHub, though:
 
 That sums up my quick exercise of automating Git in R and making it an
 executable script to run from the command line.
+
+Shout out to Zac Garland for telling me about the `gert` package.

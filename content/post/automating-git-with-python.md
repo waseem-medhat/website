@@ -55,6 +55,8 @@ except GitCommandError:
 
 try:
     origin = repo.remote()
+    origin.pull()
+    print("Successfully pulled!")
     origin.push()
     print("Successfully pushed!")
 except:
@@ -92,9 +94,21 @@ works for my specific use case:
 - It commits all files (which is almost always one in my case).
 - It doesn't care about branches (I commit to and push the master branch).
 
+# Repos
+
+I have this script, and
+[a similar one written in R](/post/automating-git-with-r/) on GitHub:
+
+- Python: https://github.com/waseem-medhat/git_done
+- R: https://github.com/waseem-medhat/git_doneR
+
 ---
 
 That's it! The idea is really simple but kinda cool. I am glad I was able to
 write a script like this in an hour and have a Python workout in the process.
 Now, I can update my website with one single command after writing this post
 and the next ones!
+
+**Edit**: I added a `git pull` command to the code. While my workflow so far has
+the code only going in one direction, pulling is a best practice. Thanks to
+David Kun for the suggestion.
