@@ -110,5 +110,5 @@ Now, I can update my website with one single command after writing this post
 and the next ones!
 
 **Edit**: I added a `git pull` command to the code. While my workflow so far has
-the code only going in one direction, pulling is a best practice. Thanks to
-David Kun for the suggestion.
+the code only going in one direction, pulling is best practice. Thanks to David
+Kun for the suggestion.
