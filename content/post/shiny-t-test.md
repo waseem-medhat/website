@@ -1,5 +1,5 @@
 ---
-title: 'Simple Shiny t-Test App'
+title: 'Shiny t-Test App'
 date: 2020-10-03T16:46:23+02:00
 Description: 'Showcasing a shiny app that does the t family of tests.'
 Tags: ['R', 'Shiny', 'Statistics']
